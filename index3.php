@@ -29,4 +29,33 @@ else {
 }
 echo "<hr />";
 
+$recherche = "/J'ai adopté un (chat|chien)/";
+echo preg_match($recherche, $texte2);//renvoie la valeur 1
+echo "<hr />";
+
+$texte3 = 'Les enfants sont rentrés à 12h45';
+$recherche3 ='/[012][0123456789]h[012345][0123456789]/';
+echo preg_match($recherche3, $texte3);//renvoie 1
+echo "<hr />";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
