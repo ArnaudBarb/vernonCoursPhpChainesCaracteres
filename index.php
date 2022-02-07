@@ -37,5 +37,13 @@ vprintf('%s %d', $infos);
 echo "<hr />";
 
 // Accès à un caractère précis d'une chaîne
-$texte = 'Je fais du PHP';
+$texte = 'Il s\'appelle Fédéric';
 echo $texte[0];
+
+echo "<hr />";
+
+//Affiche le nombre de caractères d'une chaîne
+echo strlen($texte); // compte en octet mais attention les lettres accentuées comptent pour 2 octets
+echo "<hr />";
+echo mb_strlen($texte);
+
