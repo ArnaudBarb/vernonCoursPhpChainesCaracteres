@@ -43,7 +43,11 @@ $recherche3 ='/[0-2][0-9]h[0-5][0-9]/';
 echo preg_match($recherche3, $texte3);//renvoie 1
 echo "<hr />";
 
-
+//recherche par la négation appelés caractères interdits
+$texte3 = 'Les enfants sont rentrés à 12h45';
+$recherche3 ='/[^3-9][0-9]h[0-5][0-9]/';
+echo preg_match($recherche3, $texte3);//renvoie 1
+echo "<hr />";
 
 
 
