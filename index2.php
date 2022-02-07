@@ -22,7 +22,15 @@ echo substr('toto@gmail.com', 4, 2); //Affiche les caractères aux indices indiq
 echo ('<hr />');
 
 //remplacer un motif par un autre
-$teste= 'Je fais du PHP';
+$texte= 'Je fais du PHP';
 $cherche = 'PHP';
 $remplace = 'code';
 echo str_replace($cherche, $remplace, $texte);//Affiche Je fais du code
+echo ('<hr />');
+
+$texte2= 'Pomme, Poire, Kiwi';
+$cherche2 = array('Pomme','Poire', 'Kiwi');
+$remplace2 = 'fruit';
+echo str_replace($cherche2, $remplace2, $texte2);//remplace les paramètres de $cherche2 par 'Fruit'
+echo ('<hr />');
+
