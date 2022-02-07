@@ -45,5 +45,16 @@ echo "<hr />";
 //Affiche le nombre de caractères d'une chaîne
 echo strlen($texte); // compte en octet mais attention les lettres accentuées comptent pour 2 octets
 echo "<hr />";
-echo mb_strlen($texte);
+echo mb_strlen($texte);//prend en compte les accents donc tout caractère = 1 octet
+echo "<hr />";
 
+$mail = "barberon_a@hotmail.fr";
+$position = strpos($mail, '@');
+    if ($position === false)
+    echo "il manque @";
+    else
+    echo "@ ne manque pas";
+
+
+
+    
