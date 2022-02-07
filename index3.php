@@ -59,7 +59,9 @@ echo "<hr />";
 //[[:blank:]] espace ou tabulation
 //[[:^alpha:]] tout sauf les caractères alphanumériques
 
-
+// \d chiffre décimal
+// \w caractère constituant un mot
+// \s espace
 
 
 
