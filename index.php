@@ -30,5 +30,12 @@ printf($fr, 8.1, 'PHP');
 
 echo "<hr />";
 
+//Affiche une chaine depuis l'entrée sous forme de tableau
 $infos = ['PHP', 8.1];
 vprintf('%s %d', $infos);
+
+echo "<hr />";
+
+// Accès à un caractère précis d'une chaîne
+$texte = 'Je fais du PHP';
+echo $texte[0];
