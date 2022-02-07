@@ -38,7 +38,10 @@ $recherche3 ='/[012][0123456789]h[012345][0123456789]/';
 echo preg_match($recherche3, $texte3);//renvoie 1
 echo "<hr />";
 
-
+$texte3 = 'Les enfants sont rentrés à 12h45';
+$recherche3 ='/[0-2][0-9]h[0-5][0-9]/';
+echo preg_match($recherche3, $texte3);//renvoie 1
+echo "<hr />";
 
 
 
