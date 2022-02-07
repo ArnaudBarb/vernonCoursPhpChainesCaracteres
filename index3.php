@@ -49,6 +49,16 @@ $recherche3 ='/[^3-9][0-9]h[0-5][0-9]/';
 echo preg_match($recherche3, $texte3);//renvoie 1
 echo "<hr />";
 
+//[[:lower:]] lettresminuscules
+//[[:upper:]] lettres majuscules
+//[[:alpha:]] caractères alphabétiques
+//[[:digit:]] chiffres décimaux
+//[[:xdigit:]] chiffres hexadécimaux
+//[[:alnum:]] alphanumérique
+//[[:ascii:]] ASCII 0 à 127
+//[[:blank:]] espace ou tabulation
+//[[:^alpha:]] tout sauf les caractères alphanumériques
+
 
 
 
